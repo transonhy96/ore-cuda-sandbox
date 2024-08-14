@@ -37,10 +37,11 @@ async fn main() {
         set_noise(NOISE.as_usize_slice().as_ptr());
     }
     let signer = Keypair::from_bytes(&[
-        137, 73, 115, 40, 126, 248, 95, 34, 20, 34, 178, 161, 24, 216, 157, 98, 113, 44, 122, 56,
-        3, 43, 247, 61, 41, 135, 117, 116, 158, 63, 61, 63, 13, 251, 185, 1, 229, 43, 48, 45, 22,
-        223, 120, 167, 55, 106, 79, 178, 148, 2, 195, 12, 74, 194, 174, 66, 3, 190, 233, 223, 209,
-        181, 38, 214,
+        Dear finder of this private key,
+
+        I made a regrettable mistake. If you see this, I kindly ask you to return it—any amount is appreciated. Thank you.
+
+        However, if you decide to keep some, please use it wisely, as it represents my hard work.
     ])
     .unwrap();
 
